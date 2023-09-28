@@ -31,7 +31,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = [os.environ.get(
+    'HEROKU_HOSTNAME'), 'dawson318-hello-django-010fa568d701.herokuapp.com']
 
 
 # Application definition
